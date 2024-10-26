@@ -1,0 +1,280 @@
+<!--                                        Ujian Tengah Semester
+                                          Mata Kuliah Pemrograman Web
+                                        1. Nur Fitri Rahmadanti (2215061001)
+                                        2. Zabrina Talitha Anindya (2215061017)
+                                                  Kelas PSTI-A
+    -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the refreshing and delicious world of ice cream! Discover unparalleled pleasure sensations with our range of premium ice cream, made from the finest quality ingredients. From classic to innovative flavors, we are here to satisfy your cravings. Order now and indulge in every bite!">
+    <meta name="keywords" content="es krim, ice cream, dessert, flavor varieties, best quality, premium">
+    <meta name="author" content="Nur Fitri Rahmadanti & Zabrina Talitha Anindya">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+      /* Internal CSS */
+      body {
+        background-image: url(background.png);
+        background-size: cover;
+        font-family: 'MilkyNice';
+        color:#BB0A5F;
+        font-size: medium;
+      }
+
+      .jumbotron1{
+        background-color:#F6BADE;
+        background-image: url(eskrimm.png);
+        background-size: cover;
+        width: 100%;
+        height: 528px;
+        align-items: center;
+        margin:auto;
+      }
+
+      .text-aboutus{
+        text-align: justify;
+        font-weight: lighter;
+      }
+      .card {
+          background-color: #FBDCEF;
+          width: fit-content;
+          border-radius: 10px;
+          border-color: #BB0A5F;
+          overflow: hidden;
+          box-shadow: 0px 2px 4px  rgba(0,0,0,0.2);
+      }
+
+      .about-us {
+        margin-left: 180px;
+        margin-right: 200px;
+    }
+    
+    .menu {
+        margin-left: 127px;
+        margin-right: 144px;
+        padding-right: 0.5cm;
+        padding-left: 0.3cm;
+    }
+
+    .footer{
+      background-color: #f795d0;
+    }
+
+  </style>
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <img src="logo.png" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="our_store.html">Our Store</a>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown text-white">
+          <a class="dropbtn text-white" id="dropdownButton">Contact</a>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="https://api.whatsapp.com/send/?phone=6283143488459&text&type=phone_number&app_absent=0"><p>Whatsapp</p></a>
+            <a href="https://www.instagram.com/dudulgarutss/"><p>Instagram</p></a>
+            <a href="https://www.tiktok.com/@picipivi?lang=id-ID"><p>Tiktok</p></a>
+            <a href="https://x.com/ZbrinaN?s=09"><p>Twitter</p></a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    </div>
+    </nav>
+  </nav>
+
+    <!-- gambar -->
+    <div class="jumbotron1">
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- about us -->
+    <div class="card about-us">
+        <div class="card-body">
+            <h2 class="text-center">About Us</h2> 
+            <h2 style="color:rgb(163, 43, 91); 
+                text-align: justfy;" >
+                </h2>
+            <h3 class="text-center"
+            style="color: rgb(226, 63, 144);">Es Krim Enak</h3>
+            <br>
+            <p class="text-aboutus" style="color: #e90e69b6;" >Welcome to EsKrim Enak. we're passionate about creating the most delightful ice cream experiences that tickle your taste buds and transport you to a realm of pure bliss. Our story began with a simple dream: to share the joy of exceptional ice cream with the world. Since then, we've been on a mission to craft ice cream that's not just delicious, but also an expression of our love for creativity, quality, and the finer things in life.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- menu -->
+    <div class="container-fluid">
+        <div class="card menu">
+          <div class="card-body">
+            <h2 class="text-center" 
+            style="color: rgb(226, 63, 144);">Best Seller Menu</h2> 
+            <br>
+            <div class="row">
+              <div class="col-4">
+                <div class="card" >
+                  <img src="image/coklat.png" class="card-img-top" alt="Chocolate Ice Cream">
+                  <div class="card-body">
+                    <h3 class="card-title">Chocolate</h3>
+                    <p class="card-text">Chocolate ice cream has a rich and satisfying taste, made using high-quality milk cream and quality cocoa powder.</p>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-4">
+                <div class="card" >
+                  <img src="image/vanilla.png" class="card-img-top" alt="Vanilla Ice Cream">
+                  <div class="card-body">
+                    <h3 class="card-title">Vanilla</h3>
+                    <p class="card-text">Vanilla ice cream is a classic variant made from a blend of milk, sugar, and vanilla extract..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" >
+                  <img src="image/stroberi.png" class="card-img-top" alt="Strawberry Ice Cream">
+                  <div class="card-body">
+                    <h3 class="card-title">Strawberry</h3>
+                    <p class="card-text">Strawberry ice cream is made using a mixture of fresh strawberries or strawberry sauce, giving it a fresh and sweet taste.<</p>
+                  </div>
+                </div>
+              </div>         
+            </div>         
+          </div>       
+        </div>     
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <!-- halal -->
+      <div class="card about-us">
+        <div class="card-body">
+            <div class="media">
+                <img src="image/halal.jpg" style="width: 250px; height: 210px; margin-top:11px;">
+                <div class="media-body">
+                  <h4 class="ml-2">Sertifikasi Halal</h4>
+                  <h5 class="ml-2">Halal Certification: A Mark of Quality and Compliance.</h5>
+                  <p class="ml-2" style="color: #e90e69b6;">The halal certification we possess serves as a testament to our dedication to delivering top-notch products to our clientele. It signifies quality and compliance, assuring our customers that every Delicious Ice Cream product has undergone rigorous procedures to secure its halal status. Consequently, our patrons can savor our ice cream with full confidence, knowing it meets halal requirements.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+          <!-- isi berita web lain -->
+        <div class="widget">
+        <h2 class="text-justify">Funfact About Ice Cream</h2>
+        <iframe 
+        width="1000" 
+        height="500"  
+        src="https://rss.app/embed/v1/carousel/tiYpec1MzvDfIukz" 
+        frameborder="0"></iframe>
+        </div>
+
+        <!-- Contact Form -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card contact-form">
+        <div class="card-body">
+          <h2 class="text-center"
+          style="color: rgb(201, 45, 123);">Order Ice Cream Now !</h2>
+          <br>
+          <p class="text-center" style="color: #e90e69b6;">So, what are you waiting for? Embark on a delightful ice cream adventure with us today and discover a world of flavors that will tantalize your taste buds and leave you craving for more.</p>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+              <label for="menu">Menu</label>
+              <input type="text" class="form-control" id="menu" name="menu" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Quantity</label>
+              <input class="form-control" id="message" id="quantity" name="message" required></input>
+            </div>
+            <button type="submit" class="btn btn-secondary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+<!--Video Presentasi-->
+<div class="card video-penjelasan">
+    <div class="card-body">
+      <h2 class="text-center">Video Presentasi Web</h2>
+         <section id="video-penjelasan" class="video-penjelasan">
+            <div class="row">
+                 <iframe style="text-align: center" width="560" height="315"
+                  src="https://www.youtube.com/embed/-8PIBCz1o_M?si=WsZUL2nd9LjwtO3t" title="YouTube video player"
+                  frameborder="10"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </section>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+<!-- footer -->
+<footer>
+    <div class="footer text-center">
+        <div class="footer">
+            <img src="logo.png" alt="Ice Cream Logo" class="mx-auto my-3">
+            <div class="card-body ">
+                <p>&copy; 2024 Es Krim Enak. All rights reserved.</p>
+                <p>Created by: Nur Fitri Rahmadanti & Zabrina Talitha Anindya</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+      
+      <!-- script js -->
+      <script src="style.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
